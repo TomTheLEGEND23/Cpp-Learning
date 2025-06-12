@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7ecoffee_0',['~Coffee',['../classCoffee.html#a7dd32389dc2ef3e0f0ec1803746a34ae',1,'Coffee']]]
+  ['setprice_0',['SetPrice',['../classCoffee.html#a133071952ae4ee437a7c72dc74c528bb',1,'Coffee']]]
 ];

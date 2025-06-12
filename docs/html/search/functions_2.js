@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['makecoffee_0',['MakeCoffee',['../classCoffee.html#a1bdac5638c73f6e94ef26461a5608bfc',1,'Coffee']]]
+  ['getprice_0',['GetPrice',['../classCoffee.html#a77be5d0e096e647ab2bd17b6f212bb7e',1,'Coffee']]]
 ];

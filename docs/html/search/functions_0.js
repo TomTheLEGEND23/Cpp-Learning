@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['coffee_0',['Coffee',['../classCoffee.html#a9f026e93812e3f84d5ede7b5ac00cb19',1,'Coffee']]]
+  ['brew_0',['Brew',['../classCoffee.html#ab1eaab94879d12cfb45774a4af4b9e34',1,'Coffee']]]
 ];

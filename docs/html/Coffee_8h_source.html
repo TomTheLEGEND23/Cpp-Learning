@@ -82,30 +82,33 @@ $(document).ready(function() { init_codefold(0); });
   <div class="headertitle"><div class="title">Coffee.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="Coffee_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classCoffee.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="classCoffee.html">Coffee</a>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classCoffee.html#a9f026e93812e3f84d5ede7b5ac00cb19">   22</a></span>    <a class="code hl_function" href="classCoffee.html#a9f026e93812e3f84d5ede7b5ac00cb19">Coffee</a>() {}</div>
+<a href="Coffee_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COFFEE_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COFFEE_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classCoffee.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="classCoffee.html">Coffee</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_function" href="classCoffee.html#a9f026e93812e3f84d5ede7b5ac00cb19">Coffee</a>();</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classCoffee.html#a7dd32389dc2ef3e0f0ec1803746a34ae">   30</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classCoffee.html#a7dd32389dc2ef3e0f0ec1803746a34ae">~Coffee</a>() {}</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classCoffee.html#a77be5d0e096e647ab2bd17b6f212bb7e">   40</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code hl_function" href="classCoffee.html#a77be5d0e096e647ab2bd17b6f212bb7e">GetPrice</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classCoffee.html#a0c168997b15b6cba006e028c94e95e96">~Coffee</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classCoffee.html#a77be5d0e096e647ab2bd17b6f212bb7e">   33</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code hl_function" href="classCoffee.html#a77be5d0e096e647ab2bd17b6f212bb7e">GetPrice</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classCoffee.html#a133071952ae4ee437a7c72dc74c528bb">   40</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code hl_function" href="classCoffee.html#a133071952ae4ee437a7c72dc74c528bb">SetPrice</a>(<span class="keywordtype">double</span> price) = 0;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classCoffee.html#a6d387f7227a7ca28590e40c0d2f84a76">   51</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code hl_function" href="classCoffee.html#a6d387f7227a7ca28590e40c0d2f84a76">SetPrice</a>(<span class="keywordtype">double</span> price) <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classCoffee.html#a1bdac5638c73f6e94ef26461a5608bfc">   61</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classCoffee.html#a1bdac5638c73f6e94ef26461a5608bfc">MakeCoffee</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}; </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classCoffee.html#ab1eaab94879d12cfb45774a4af4b9e34">   46</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classCoffee.html#ab1eaab94879d12cfb45774a4af4b9e34">Brew</a> (std::string coffeeType) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
 </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">// End of Coffee.h</span></div>
-<div class="ttc" id="aclassCoffee_html"><div class="ttname"><a href="classCoffee.html">Coffee</a></div><div class="ttdoc">Abstract base class representing a coffee item.</div><div class="ttdef"><b>Definition</b> Coffee.h:15</div></div>
-<div class="ttc" id="aclassCoffee_html_a1bdac5638c73f6e94ef26461a5608bfc"><div class="ttname"><a href="classCoffee.html#a1bdac5638c73f6e94ef26461a5608bfc">Coffee::MakeCoffee</a></div><div class="ttdeci">virtual bool MakeCoffee() const =0</div><div class="ttdoc">Make/prepare the coffee.</div></div>
-<div class="ttc" id="aclassCoffee_html_a6d387f7227a7ca28590e40c0d2f84a76"><div class="ttname"><a href="classCoffee.html#a6d387f7227a7ca28590e40c0d2f84a76">Coffee::SetPrice</a></div><div class="ttdeci">virtual double SetPrice(double price) const =0</div><div class="ttdoc">Set the price of the coffee.</div></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif </span><span class="comment">// COFFEE_H</span></div>
+<div class="ttc" id="aclassCoffee_html"><div class="ttname"><a href="classCoffee.html">Coffee</a></div><div class="ttdoc">Abstract base class representing a coffee item.</div><div class="ttdef"><b>Definition</b> Coffee.h:17</div></div>
+<div class="ttc" id="aclassCoffee_html_a0c168997b15b6cba006e028c94e95e96"><div class="ttname"><a href="classCoffee.html#a0c168997b15b6cba006e028c94e95e96">Coffee::~Coffee</a></div><div class="ttdeci">virtual ~Coffee()</div><div class="ttdoc">Virtual destructor for Coffee.</div><div class="ttdef"><b>Definition</b> Coffee.cpp:7</div></div>
+<div class="ttc" id="aclassCoffee_html_a133071952ae4ee437a7c72dc74c528bb"><div class="ttname"><a href="classCoffee.html#a133071952ae4ee437a7c72dc74c528bb">Coffee::SetPrice</a></div><div class="ttdeci">virtual double SetPrice(double price)=0</div><div class="ttdoc">Set the price of the coffee.</div></div>
 <div class="ttc" id="aclassCoffee_html_a77be5d0e096e647ab2bd17b6f212bb7e"><div class="ttname"><a href="classCoffee.html#a77be5d0e096e647ab2bd17b6f212bb7e">Coffee::GetPrice</a></div><div class="ttdeci">virtual double GetPrice() const =0</div><div class="ttdoc">Get the price of the coffee.</div></div>
-<div class="ttc" id="aclassCoffee_html_a7dd32389dc2ef3e0f0ec1803746a34ae"><div class="ttname"><a href="classCoffee.html#a7dd32389dc2ef3e0f0ec1803746a34ae">Coffee::~Coffee</a></div><div class="ttdeci">virtual ~Coffee()</div><div class="ttdoc">Virtual destructor for Coffee.</div><div class="ttdef"><b>Definition</b> Coffee.h:30</div></div>
-<div class="ttc" id="aclassCoffee_html_a9f026e93812e3f84d5ede7b5ac00cb19"><div class="ttname"><a href="classCoffee.html#a9f026e93812e3f84d5ede7b5ac00cb19">Coffee::Coffee</a></div><div class="ttdeci">Coffee()</div><div class="ttdoc">Default constructor for Coffee.</div><div class="ttdef"><b>Definition</b> Coffee.h:22</div></div>
+<div class="ttc" id="aclassCoffee_html_a9f026e93812e3f84d5ede7b5ac00cb19"><div class="ttname"><a href="classCoffee.html#a9f026e93812e3f84d5ede7b5ac00cb19">Coffee::Coffee</a></div><div class="ttdeci">Coffee()</div><div class="ttdoc">Default constructor for Coffee.</div><div class="ttdef"><b>Definition</b> Coffee.cpp:3</div></div>
+<div class="ttc" id="aclassCoffee_html_ab1eaab94879d12cfb45774a4af4b9e34"><div class="ttname"><a href="classCoffee.html#ab1eaab94879d12cfb45774a4af4b9e34">Coffee::Brew</a></div><div class="ttdeci">virtual bool Brew(std::string coffeeType) const =0</div><div class="ttdoc">Make/prepare the coffee.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
