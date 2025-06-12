@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['of_20projects_0',['Table of Projects',['../md_README.html#autotoc_md1',1,'']]]
+  ['getprice_0',['GetPrice',['../classCoffee.html#a77be5d0e096e647ab2bd17b6f212bb7e',1,'Coffee']]]
 ];
