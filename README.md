@@ -2,6 +2,10 @@
 A Git Repo To Document my path to learn C++ and Object Oriented Programming
 Cause I am New to C++, I will try to document my Learning Path.
 
+## Doxygen
+This project uses Doxygen to generate documentation from the source code. To generate the documentation, follow
+https://tomthelegend23.github.io/Cpp-Learning/
+
 ## Table of Projects
 - Coffee Cafe
 
